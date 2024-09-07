@@ -7,6 +7,7 @@ from pyinfra.api import FactBase
 from .gpg import GpgFactBase
 from .util import make_cat_files_command
 
+
 def parse_apt_repo(name):
     regex = r"^(deb(?:-src)?)(?:\s+\[([^\]]+)\])?\s+([^\s]+)\s+([^\s]+)\s+([a-z-\s]*)$"
 
